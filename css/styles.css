@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background: #B6E1E4;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 250px;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.header__menu a {
+  text-decoration: none;
+  color: #5F6367;
+  font-size: 14px;
+}
+
+.header__menu .fas {
+  color: #5F6367;
+  font-size: 20px;
+}
+
+.header__menu img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.search__options h1 {
+  text-align: center;
+  font-size: 70px;
+  color: rgb(95, 179, 184);
+  font-weight: 500;
+  margin: 50px 0;
+}
+
+.search__bar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.search__bar .fas {
+  position: absolute;
+  top: 19px;
+  left: 476px;
+}
+
+.search__link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search__bar input[type="text"] {
+  background: #fff;
+  width: 550px;
+  padding: 18px;
+  border-radius: 25px;
+  font-size: .9rem;
+  padding-left: 50px;
+  border: none;
+  font-weight: 300;
+  color: gray;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search__links {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 300px;
+}
+
+.search__icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.search__buttons {
+  width: 40px;
+  height: 40px;
+  background: #99D5D9;
+  border-radius: 50%;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.search__buttons i {
+  position: absolute;
+  top: 10px;
+  right: 11px;
+  font-size: 1.3rem;
+  color: rgb(86, 84, 181);
+}
+
+.search__icons p {
+  font-size: .875rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chrome__option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  position: relative;
+}
+
+.chrome__heading {
+  margin-left: 10px;
+}
+
+.chrome__option input[type="text"] {
+  background: #99D5D9;
+  width: 180px;
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: 25px;
+  font-size: .9rem;
+  border: none;
+  font-weight: 300;
+  color: gray;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.chrome__option i {
+  position: absolute;
+  top: 10;
+  right: 178px;
+  color: rgb(68, 64, 64);
+}
+
+
+
+
+
+
+
